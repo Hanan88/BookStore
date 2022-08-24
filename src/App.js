@@ -6,12 +6,12 @@ import Home from "./pages/Home";
 import ListBooks from './pages/ListBooks';
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-5 my-12 rounded-lg bg-white">
       <TopHeader />
       <BottomHeader />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/view-all" element={<ListBooks />} />
+        <Route path="/all-books" element={<ListBooks />} />
       </Routes>
     </div>
   );
