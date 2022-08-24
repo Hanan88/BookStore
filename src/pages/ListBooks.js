@@ -37,8 +37,8 @@ const ListBooks = () => {
                   alt="" 
                 />
               </div>
-              <h1 className="title overflow-hidden h-1/5 mb-2 ml-1 text-xs">{book.title}</h1>
-              <h2 className="subject overflow-hidden h-1/5 ml-1 text-xs">
+              <h1 className="title overflow-hidden h-1/3 mb-2 ml-1 text-xs font-medium">{book.title}</h1>
+              <h2 className="subject overflow-hidden   ml-1 text-xs">
                 {book?.subjects[0]}
               </h2>
               <div className="mx-2">
